@@ -1,0 +1,27 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+**/rzp-key.csv
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+
+# Stray/local files
+Frontend/scan_*.json
+Backend/test.db
+Frontend/*.zip
+.vercel/
+Frontend/.vercel/
+Frontend/.output/
+Frontend/.wrangler/
+
+# OS
+.DS_Store
